@@ -7,8 +7,15 @@ function startGame(){
     //initialize game variables
     progress = 0;
     gamePlaying = true;
-}
-
-// swap the Start and Stop buttons
+  // swap the Start and Stop buttons
 document.getElementById("startBtn").classList.add("hidden");
 document.getElementById("stopBtn").classList.remove("hidden");
+}
+
+function stopGame(){
+    //initialize game variables
+    gamePlaying = false;
+  // swap the Start and Stop buttons
+document.getElementById("startBtn").classList.add("hidden");
+document.getElementById("stopBtn").classList.remove("hidden");
+}
