@@ -59,15 +59,15 @@ button {
 }
 
 #button5 {
-  background: salmon;
+  background: lightsalmon;
 }
 #button5:active, #button5.lit {
   background: darksalmon;
 }
 
 #button6 {
-  background: yellow;
+  background: lightgray;
 }
-#button4:active, #button4.lit {
-  background: gold;
+#button6:active, #button6.lit {
+  background: darkgray;
 }
