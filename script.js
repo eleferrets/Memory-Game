@@ -12,11 +12,13 @@ var guessCounter = 0;
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
 var max = 6; // The last button
 var min = 1; // The first button
+var numMistakes = 0;
 
 function startGame() {
   //initialize game variables
   genPattern(pattern);
   progress = 0;
+  numMistakes = 0;
   gamePlaying = true;
   // swap the Start and Stop buttons
   document.getElementById("startBtn").classList.add("hidden");
@@ -132,6 +134,7 @@ function guess(btn){
   }else{
     //Guess was incorrect
     //GAME OVER: LOSE!
+    numMistake++;
     loseGame();
   }
 }    
