@@ -10,9 +10,12 @@ var tonePlaying = false;
 var volume = 0.5; //must be between 0.0 and 1.0
 var guessCounter = 0;
 var clueHoldTime = 1000; //how long to hold each clue's light/sound
+var max = 6; // The last button
+var min = 1; // The first button
 
 function startGame() {
   //initialize game variables
+  //genPattern(pattern);
   progress = 0;
   gamePlaying = true;
   // swap the Start and Stop buttons
@@ -133,8 +136,9 @@ function guess(btn){
   }
 }    
 
-function genPattern() {
-  for(let i=0;i<=pattern.length;i++) {
-    pattern[i] = Math.random
+function genPattern(pattern) {
+  for(var i=0;i<pattern.length;i++) {
+    pattern[i] = Math.floor(Math.random() * (max - min + 1) + min); // The maximum is exclusive, so add one to include it
   }
+  return pattern;
 }
