@@ -5,11 +5,10 @@ body {
   margin: 2em;
   background-color: black;
   color: white;
-  
 }
 
 h1 {
-  font-family: verdana, arial, sans-serif; 
+  font-family: verdana, arial, sans-serif;
 }
 
 button {
@@ -18,9 +17,9 @@ button {
 }
 
 #gameButtonArea > button {
-  width:200px;
-  height:200px;
-  margin:2px;
+  width: 200px;
+  height: 200px;
+  margin: 2px;
 }
 
 .hidden {
@@ -28,29 +27,29 @@ button {
 }
 
 #button1 {
-    background:lightgreen;
+  background: lightgreen;
 }
 #button1:active {
-    background:green;
+  background: green;
 }
 
 #button2 {
-    background:lightblue;
+  background: lightblue;
 }
 #button2:active {
-    background:blue;
+  background: blue;
 }
 
 #button3 {
-    background:pink;
+  background: pink;
 }
 #button3:active {
-    background:red;
+  background: red;
 }
 
 #button4 {
-    background:lightyellow;
+  background: lightyellow;
 }
 #button4:active {
-    background:yellow;
+  background: yellow;
 }
