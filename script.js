@@ -15,7 +15,7 @@ var min = 1; // The first button
 
 function startGame() {
   //initialize game variables
-  //genPattern(pattern);
+  genPattern(pattern);
   progress = 0;
   gamePlaying = true;
   // swap the Start and Stop buttons
