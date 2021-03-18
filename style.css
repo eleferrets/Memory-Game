@@ -3,9 +3,39 @@
 body {
   font-family: helvetica, arial, sans-serif;
   margin: 2em;
+  background-color: black;
+  color: white;
+  
 }
 
 h1 {
-  font-style: italic;
-  color: #373fff;
+  font-family: verdana, arial, sans-serif; 
+}
+
+button {
+  padding: 10px;
+  border-radius: 10px;
+}
+
+#gameButtonArea > button {
+  width:200px;
+  height:200px;
+  margin:2px;
+}
+
+.hidden {
+  display: none;
+}
+
+#button1 {
+    background: lightgreen;
+}
+#button2 {
+    background: lightblue;
+}
+#button3 {
+    background: pink;
+}
+#button44 {
+    background: lightgreen;
 }
