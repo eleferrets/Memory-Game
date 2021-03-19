@@ -75,11 +75,11 @@ o.start(0);
 
 function lightButton(btn){
   document.getElementById("button"+btn).classList.add("lit")
-  document.getElementById("img"+btn).classList.remove("hidden")
+ // document.getElementById("img"+btn).classList.remove("hidden")
 }
 function clearButton(btn){
   document.getElementById("button"+btn).classList.remove("lit")
-  document.getElementById("img"+btn).classList.add("hidden")
+ // document.getElementById("img"+btn).classList.add("hidden")
 }
 
 function playSingleClue(btn){
