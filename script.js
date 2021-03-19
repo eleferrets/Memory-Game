@@ -134,8 +134,10 @@ function guess(btn){
   }else{
     //Guess was incorrect
     //GAME OVER: LOSE!
-    numMistake++;
-    loseGame();
+    numMistakes++;
+    if (numMistakes >= 3) {
+     loseGame(); 
+    }
   }
 }    
 

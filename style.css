@@ -18,6 +18,9 @@ p {
 button {
   padding: 15px;
   border-radius: 10px;
+  background-color: red;
+  color: white;
+  text-style: bold;
 }
 
 #gameButtonArea > button {
