@@ -6,7 +6,7 @@ Submitted by: **Brian Balthazar**
 
 Time spent: **2** hours spent in total
 
-Link to project: (insert your link here, should start with https://glitch.com...)
+Link to project: https://glitch.com/edit/#!/fancy-cliff-mailbox?path=README.md%3A18%3A7
 
 ## Required Functionality
 
