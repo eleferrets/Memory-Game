@@ -16,6 +16,7 @@ var numMistakes = 0;
 
 function startGame() {
   //initialize game variables
+  clueHoldTime = 1000;
   genPattern(pattern);
   progress = 0;
   numMistakes = 0;
