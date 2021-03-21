@@ -41,6 +41,7 @@ The following **additional** features are implemented:
 ## Video Walkthrough
 
 Here's a walkthrough of implemented user stories:
+
 ![preview-gif](https://github.com/eleferrets/prework-repo/blob/master/Gif%20Memory%20Game.gif)
 
 ## Reflection Questions
